@@ -1,0 +1,75 @@
+/* shared style  */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.txt-primary {
+    color: #FF42A5;
+}
+
+/* nav bar section style  */
+
+nav {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 240px;
+}
+
+.logo-part {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-part>h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+nav li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.nav-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3C354F;
+    font-family: Work Sans;
+}
+
+nav button {
+    border: 0;
+    background: none;
+}
+
+.follow-us {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.follow-text {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* nav bar section style end  */
