@@ -4,12 +4,26 @@
     {
         flex-direction: column;
     }
+
+    .goat{
+        flex-direction: column-reverse;
+    }
+ .nav-bar{
+    box-shadow: none;
+ }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .nav-bar{
+  .nav-bar,
+  .goat
+  {
     flex-direction: column;
   }
+.goat{
+    align-items: center;
+    padding: 0 4rem 0 0;
+}
 
     
 }
