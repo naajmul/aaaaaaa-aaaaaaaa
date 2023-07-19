@@ -73,6 +73,22 @@
     margin-top: 1rem;
 }
 
+/* we are gamer section media  */
+.we-gamer-container {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1.3rem auto;
+}
+
+.we-gamer-content {
+  text-align: center;
+}
+
+.we-gamer-container>div {
+  width: 80%;
+  margin: auto;
+}
+
 }
 
 
@@ -118,6 +134,24 @@
 .banner-container .banner-content>div {
     width: 70%;
     margin: 2rem auto;
+}
+
+/* we are gamer section media  */
+.we-gamer-container {
+  flex-direction: column;
+}
+
+.we-gamer-content {
+  text-align: center;
+}
+
+.card-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.online-games-container {
+  width: 80%;
+  margin: auto;
 }
 
 }
