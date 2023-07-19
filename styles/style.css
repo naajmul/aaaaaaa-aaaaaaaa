@@ -57,6 +57,8 @@
 }
 
 /* nav bar section style*/
+
+
 .nav-bar {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -94,6 +96,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.fa-youtube {
+    color: rgba(255, 0, 0, 0.5);
+    margin-left: 10px;
+}
+
+.fa-tiktok {
+    color: rgba(5, 5, 5,.5);
+    margin-left: 10px;
+}
+
+.fa-youtube:hover {
+    color: rgba(255, 0, 0, 1);
+}
+
+.fa-tiktok:hover {
+    color: rgba(5, 5, 5,1);
+    margin-left: 10px;
 }
 
 .nav-right ul li {
@@ -493,4 +513,60 @@ footer {
     border: 1px solid #FF42A5;
     border-radius: 3rem;
     cursor: pointer;
+}
+
+
+/* career section css  */
+
+.careers {
+    background: url("../images/Vector\ 2.png"), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.careers-container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.careers-container .item {
+    width: 50%;
+}
+
+.career-img img {
+    width: 100%;
+}
+
+.career-content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.first {
+    text-align: left;
+}
+
+.second {
+    text-align: right;
+}
+
+.career-content h2 {
+    font-size: 3rem;
+    margin-bottom: .6rem;
+}
+
+.career-content>p {
+    font: 1.2rem;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+
+.career-content-container p {
+    margin-bottom: .3rem;
 }
