@@ -89,6 +89,19 @@
   margin: auto;
 }
 
+/* online game funny css  */
+
+.card-container {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.online-games-container {
+  width: 80%;
+  margin: auto;
+}
+
+
+
 }
 
 
@@ -145,6 +158,7 @@
   text-align: center;
 }
 
+/* online game  */
 .card-container {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -153,5 +167,6 @@
   width: 80%;
   margin: auto;
 }
+
 
 }
