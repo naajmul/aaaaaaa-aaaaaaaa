@@ -101,8 +101,89 @@
 }
 
 
+/* play instantly css  */
+.play-games-section-container {
+  flex-direction: column;
+}
+.play-left {
+  text-align: center;
+}
+
+.img1 {
+  width: 260px;
+} 
+.img-container {
+  margin: 2rem;
+}
+
+.careers-container {
+  flex-direction: column-reverse;
+  padding-bottom: 2rem;
+}
+
+.careers-container .item {
+  width: 80%;
+}
+
+.career-content-container {
+  font-size: 12px;
+}
+
+.career-content h2 {
+  font-size: 1.8rem;
+}
+
+.btn-3 {
+  font-size: 1rem;
+  padding: .5rem 1.3rem;
+}
+.play-left {
+  text-align: center;
+}
+.play-left h2 {
+  font-size: 30px;
+  width: 250px;
+}
+.play-left p {
+  margin-bottom: 1rem;
+  width: 250px;
+}
+
+.we-gamer-content div h2 {
+  font-size: 1.6rem;
+}
+
+.we-gamer-content div p {
+  font-size: 1rem;
+}
+
+.primary-butn {
+  padding: .5rem 1.2rem;
+  font-size: 1rem;
+}
+
+.online-games-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.online-games-container .online-games-subtitle {
+  font-size: 0.8rem;
+}
+
+.play-left {
+  align-items: center;
+}
+
+.card {
+  margin: .5rem;
+}
+
 
 }
+
+
+
 
 
 /* Tablet Device responsive */
@@ -166,6 +247,83 @@
 .online-games-container {
   width: 80%;
   margin: auto;
+}
+
+
+/* play instantly responsive  */
+
+.play-games-section-container {
+  flex-direction: column;
+}
+
+.play-left {
+  text-align: right;
+}
+
+.img1 {
+  width: 400px;
+}  
+
+.careers-container {
+  flex-direction: column-reverse;
+  padding-bottom: 2rem;
+}
+
+.careers-container .item{
+  width: 80%;
+}
+
+.career-content-container {
+  font-size: 14px;
+}
+
+.nav-container {
+  width: 95%;
+  margin: auto;
+}
+
+.banner {
+  width: 95%;
+  margin: auto;
+}
+
+.we-are-gamer {
+  width: 95%;
+  margin: auto;
+}
+
+.online-games {
+  width: 95%;
+  margin: auto;
+}
+
+.play-games-section {
+  width: 95%;
+  margin: auto;
+}
+
+.game-types {
+  width: 95%;
+  margin: auto;
+}
+
+.careers {
+  width: 95%;
+  margin: auto;
+}
+
+.play-left {
+  text-align: center;
+}
+
+
+.play-left h2 {
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+
+.play-left p {
+  margin-bottom: 1rem;
 }
 
 
