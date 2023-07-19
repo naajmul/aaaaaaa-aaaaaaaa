@@ -1,4 +1,4 @@
-/* For Mobile Device (small screen) */
+/* Mobile Device responsive */
 @media screen and (max-width: 576px) {
   /* nav bar section  */
   .nav-container {
@@ -92,7 +92,7 @@
 }
 
 
-/* For Tablet (medium device) */
+/* Tablet Device responsive */
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
   /* nav bar section  */

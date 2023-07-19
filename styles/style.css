@@ -252,3 +252,68 @@
 .we-gamer-purposes {
     margin-top: 1rem;
 }
+
+/* footer section css  */
+
+footer {
+    height: fit-content;
+    background-color: #010101;
+    color: white;
+    margin-top: 5rem;
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 4rem;
+    text-align: center;
+}
+
+.footer-container .nav-left {
+    justify-content: center;
+}
+
+.footer-link ul {
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+    margin: 1.5rem;
+}
+
+.footer-icon {
+
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-icon i {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.footer-icon i:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+.policy {
+    margin: 2rem auto;
+    ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.policy a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
