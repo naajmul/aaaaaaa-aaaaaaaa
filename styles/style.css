@@ -449,3 +449,48 @@ footer {
     bottom: -10%;
     left: -15%;
 }
+
+/* all game section  */
+
+.all-game-icon {
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.all-game-icon .card img {
+    width: 50px;
+    height: 50px;
+}
+
+.all-game-icon .card {
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #FFF;
+    gap: 1rem;
+    border: 1px solid transparent;
+    padding: 0.5rem;
+    margin: .3rem;
+}
+
+.all-game-icon-container {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.all-game-icon .card:hover {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 3rem;
+    cursor: pointer;
+}

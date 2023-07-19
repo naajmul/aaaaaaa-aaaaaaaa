@@ -302,10 +302,6 @@
   margin: auto;
 }
 
-.game-types {
-  width: 95%;
-  margin: auto;
-}
 
 .careers {
   width: 95%;
@@ -324,6 +320,12 @@
 
 .play-left p {
   margin-bottom: 1rem;
+}
+
+/* all game type  */
+.all-game-icon {
+  width: 95%;
+  margin: auto;
 }
 
 
